@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nexus-open-cli-doctor"
+version = "0.1.0"
+description = "Project health doctor plugin for nexus-open-cli."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    { name = "ByteKnight", email = "esqaNN@163.com" }
+]
+dependencies = [
+  "nexus-open-cli>=0.1.0",
+  "typer>=0.12,<1.0",
+  "rich>=13,<14",
+  "babel>=2.12,<3.0",
+]
+
+[project.entry-points."nexuscli.command"]
+doctor = "ncli_doctor.plugin:DoctorPlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ncli_doctor"]

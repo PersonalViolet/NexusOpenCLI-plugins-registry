@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ncli-doctor 0.1.0\n"
+"POT-Creation-Date: 2026-05-03 00:00+0000\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Project health check report."
+msgstr ""
+
+msgid "Project health doctor commands."
+msgstr ""
+
+msgid "Generate a project health report."
+msgstr ""
+
+msgid "Target project path."
+msgstr ""
+
+msgid "Show detailed report output."
+msgstr ""
+
+msgid "Git repo initialized"
+msgstr ""
+
+msgid "No .git directory"
+msgstr ""
+
+msgid "README.md present"
+msgstr ""
+
+msgid "No README.md"
+msgstr ""
+
+msgid "LICENSE present"
+msgstr ""
+
+msgid "No LICENSE"
+msgstr ""
+
+msgid ".gitignore present"
+msgstr ""
+
+msgid "No .gitignore"
+msgstr ""
+
+msgid "Project structure reasonable"
+msgstr ""
+
+msgid "File count within 1000"
+msgstr ""
+
+msgid "Too many files"
+msgstr ""
+
+msgid "No large files"
+msgstr ""
+
+msgid "No large files detected"
+msgstr ""
+
+msgid "Large files detected"
+msgstr ""
+
+msgid "Dependency file detected"
+msgstr ""
+
+msgid "No dependency file found"
+msgstr ""
+
+msgid "Tests folder present"
+msgstr ""
+
+msgid "No tests folder"
+msgstr ""
+
+msgid "Project Health Report"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Top 3 largest files"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+msgid "File count"
+msgstr ""
+
+msgid "Project types"
+msgstr ""
+
+msgid "Dependency files"
+msgstr ""
+
+msgid "Large files"
+msgstr ""
+

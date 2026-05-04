@@ -107,16 +107,16 @@ pyproject.toml        1.2 KB
 
 Each rule contributes to the overall score:
 
-| Rule              | Weight    | Description                          |
-| ----------------- | --------- | ------------------------------------ |
-| Git Repository    | 20 points | Project should be version controlled |
-| README.md         | 15 points | Documentation is essential           |
-| LICENSE           | 10 points | Legal clarity for users              |
-| .gitignore        | 10 points | Proper git configuration             |
-| Project Structure | 15 points | Reasonable file count (< 1000)       |
-| Large Files       | 10 points | No files > 10MB                      |
-| Dependencies      | 10 points | Dependency management present        |
-| Tests             | 10 points | Test suite availability              |
+| Rule | Weight | Description |
+|------|--------|-------------|
+| Git Repository | 20 points | Project should be version controlled |
+| README.md | 15 points | Documentation is essential |
+| LICENSE | 10 points | Legal clarity for users |
+| .gitignore | 10 points | Proper git configuration |
+| Project Structure | 15 points | Reasonable file count (< 1000) |
+| Large Files | 10 points | No files > 10MB |
+| Dependencies | 10 points | Dependency management present |
+| Tests | 10 points | Test suite availability |
 
 ## Development
 
